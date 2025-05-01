@@ -1,3 +1,6 @@
+from _static.common.helpers import setup_hardware_client
+setup_hardware_client()
+
 import matplotlib.pyplot as plt
 from functools import partial
 from ipywidgets import interact, IntSlider
