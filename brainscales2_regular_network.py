@@ -1,3 +1,7 @@
+from _static.common.helpers import setup_hardware_client
+setup_hardware_client()
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pynn_brainscales.brainscales2 as pynn
